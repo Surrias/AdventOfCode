@@ -1,7 +1,7 @@
 import re
 
 def main():
-    with open(r"C:\Users\zoe.little\OneDrive - Broadstreet Properties Ltd\Documents\AoC24\Advent3.txt") as f:
+    with open(r"Day3\Input.txt") as f:
         input = f.read()
     print(sum_multis(find_multi(strip_disabled(input))))
 
